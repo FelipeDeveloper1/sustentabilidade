@@ -1,0 +1,19 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.title_about {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.text_content_about {
+    margin-top: 2vh;
+    border: 1px solid white;
+    width: 50%;
+    height: 80%;
+}

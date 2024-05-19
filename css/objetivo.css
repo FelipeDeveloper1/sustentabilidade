@@ -1,0 +1,94 @@
+.objetivo {
+    height: 80vh;
+    width: 100vw;
+}
+
+.title_objetivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width: 80%;
+    height: 10vh;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0D1117;
+    z-index: 10;
+    width: 35vw;
+    height: 75vh;
+    border-radius: 10px;
+}
+
+.header_modal {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.text_modal {
+    margin: auto;
+    height: 85%;
+    width: 90%;
+    border: 1px solid white;
+}
+
+.title_modal {
+    text-align: center;
+}
+
+.close_modal {
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.active {
+    transition: 400ms ease-in-out;
+    display: block;
+}
+
+.content_modal {
+    margin-top: 2%;
+    padding: 2%;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+.card_theme {
+    width: 18%;
+    height: 80%;
+    margin-left: 2%;
+    border: 2px solid white;
+    overflow-y: hidden;
+}
+
+.card_theme>img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_theme:hover {
+    /* width: 18%; */
+    transform: scale(0.9);
+    border: 2px solid rgb(155, 219, 151);
+    cursor: pointer;
+    transition: 400ms ease-in-out;
+}
