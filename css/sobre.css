@@ -12,8 +12,16 @@
 }
 
 .text_content_about {
+    padding: 2%;
     margin-top: 2vh;
+    text-align: justify;
     border: 1px solid white;
-    width: 50%;
+    width: 40%;
     height: 80%;
+}
+
+.text_content_about>p {
+    font-size: 1.5em;
+    margin-top: 2%;
+    line-height: 1.5em;
 }
